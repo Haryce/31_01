@@ -16,6 +16,7 @@ void swap(int* a, int* b) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     int x = 10, y = 5;
     int max;
     Max(&x, &y, &max);
